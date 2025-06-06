@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot</title>
+  <link rel="icon" type="image/x-icon" href="logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="chat-app d-flex flex-column">
+    <!-- Navbar -->
+    <div class="navbar bg-white shadow-sm p-3 d-flex align-items-center">
+      <img src="logo.png" alt="logo" width="40" class="me-2">
+      <h1 class="h5 m-0">Digital Buddy (DLC Bot)</h1>
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-body flex-grow-1 overflow-auto px-3 py-2" id="chat-body">
+      <div class="bot-message">👋 Hello! Ask me how to use WhatsApp, Paytm, or Google Maps!</div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="chat-input bg-light p-2">
+      <input type="text" class="form-control rounded-pill" id="chat-input" placeholder="Ask anything..." />
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
